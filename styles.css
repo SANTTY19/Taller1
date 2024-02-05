@@ -1,0 +1,117 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #c8c8c8;
+    background-color: #0d1117;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+header {
+    background-color: #161b22;
+    padding: 20px;
+    color: #c8c8c8;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+section {
+    background-color: #161b22;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+p {
+    max-width: 800px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #8b949e;
+}
+
+ul {
+    max-width: 800px;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #58a6ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.btn-github {
+    background-color: #2ea44f;
+    border-color: #2ea44f;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.btn-github:hover {
+    background-color: #24853a;
+    border-color: #24853a;
+}
+
+.github-logo {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.feature-box {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.feature-icon {
+    font-size: 3em;
+    margin-bottom: 15px;
+    color: #8b949e;
+}
+
+.footer {
+    text-align: center;
+    color: #8b949e;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #0d1117;
+    padding: 10px 0;
+}
+
+/* Estilos para el modal */
+.modal-content {
+    background-color: #161b22;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.modal-body {
+    color: #8b949e;
+}
+
+.modal-footer {
+    background-color: #0d1117;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.modal-footer .btn-github {
+    margin-top: 0; 
+}
+
